@@ -1,0 +1,6 @@
+git+https://github.com/Rapptz/discord.py
+boto3
+discord
+asyncio
+mcrcon
+mcstatus
