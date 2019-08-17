@@ -5,6 +5,9 @@
     "credentials": {
         "aws_access_key_id": "",
         "aws_secret_access_key": "",
-        "serverIP": ""
+        "serverIP": "",
+        "rcon": "",
+        "rconpassword": "",
+        "rconport": 25575
     }
 }

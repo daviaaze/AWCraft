@@ -26,15 +26,19 @@ instanceId = credentials["Instance"]
 
 def minecraftStop():
     from mcrcon import MCRcon
-    mcr = MCRcon("18.228.124.241", "cnt7275", 25575)
+    mcr = MCRcon(credentials["serverIP"],
+                 credentials["rconpassword"], credentials["rconport"])
     mcr.connect()
     mcr.command("stop")
 
 
 def stop():
     try:
-        minecraftStop()
-        instance.stop(False, False)
+        if credentials["rcon"] == "yes":
+          minecraftStop()
+          instance.stop(False, False)
+        else:
+          instance.stop(False, False)
         return True
     except:
         return False
