@@ -7,4 +7,4 @@ This is my attempt to build a fully operational Minecraft server in the Cloud, m
 For the Discord, I've used **THIS** [API](https://github.com/Rapptz/discord.py) from [RAPPTZ](https://github.com/Rapptz)
 	The bot is running on [Heroku](https://www.heroku.com/)
 # What I'm doing now
- For now, I'm studying AWS automation with [Boto3](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html) and planning to improve the Discord bot to recive options from "**.jason**" files
+ For now, I'm studying AWS automation with [Boto3](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html) and planning to improve the Discord bot to recive options from "**.json**" files
